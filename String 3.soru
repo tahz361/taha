@@ -1,0 +1,2 @@
+kelime = input("Bir Kelime Giriniz.")
+print kelime[0],kelime[-1]
