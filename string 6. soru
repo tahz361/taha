@@ -1,0 +1,7 @@
+kelime = input("Bir Kelime Giriniz.")
+sayi = int(input("Sayı Giriniz."))
+harf = input("Harf Giriniz.")
+
+yeni= kelime[:sayi - 1] + harf + kelime[sayi:] 
+
+print yeni
