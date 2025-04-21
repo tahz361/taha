@@ -1,0 +1,3 @@
+ad = input("Adınız Nedir?")
+soyad = input("Soyadınız Nedir?")
+print ad[0] , soyad[0]
