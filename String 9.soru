@@ -1,0 +1,21 @@
+cumle = input("Bir Kelime veya Cümle giriniz.")
+sil = input("Silinecek kelime?")
+
+kelime=""
+yeni_cumle=""
+
+i=0
+while i < len(cumle):
+  if cumle[i] != " ":
+    kelime += cumle[i]
+  else:
+    if kelime != sil:
+      yeni_cumle += kelime + " "
+    kelime = ""
+  i += 1
+if kelime != sil:
+  yeni_cumle += kelime
+
+print("Yeni cümle: "+ yeni_cumle)
+
+
