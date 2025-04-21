@@ -1,0 +1,4 @@
+kelime = input("Bir Kelime Giriniz.")
+harf = input("Bir Harf Giriniz.")
+
+print(kelime.count(harf))
